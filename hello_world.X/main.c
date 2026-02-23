@@ -29,18 +29,24 @@ int main(void)
     // garante JTAG desligado em runtime também
     CFGCONbits.JTAGEN = 0;
 
-    // RB10 como saída
-    TRISBCLR = (1u << 10);
+    // RB10 como saída usando struct
+    TRISBbits.TRISB10 = 0;
 
     // inicia em LOW
-    LATBCLR = (1u << 10);
+    LATBbits.LATB10 = 0;
 
     while (1)
     {
-        // 2. CORREÇÃO DO TOGGLE:
-        // LATBINV inverte o bit passado. Para inverter sempre, 
-        // basta mandar 1 na posição 10 a cada ciclo.
-        LATBINV = (1u << 10);   // Inverte o estado atual do RB10
+        //Força nível lógico baixo:
+        LATBbits.LATB10 = 0;
+        
+        //Tempo de espera:
+        delay_ms(500);
+        
+        //Força nível lógico alto:
+        LATBbits.LATB10 = 1;
+        
+        //Tempo de espera:
         delay_ms(500);
     }
 }
