@@ -17,12 +17,17 @@ Este projeto é um exemplo prático de inicialização, configuração de hardwa
 
 ## Circuito rodando em bancada:
 
+<div align="center">
+ 
 | **Ação** |
-|Estado desligado|
+| :--- |
+| Estado desligado |
 |![Estado desligado](https://github.com/MattGrossi12/hello_world_pic32/blob/main/blink_state_0.jpeg)|
-|Estado desligado|
+| Estado ligado |
 |![Estado ligado](https://github.com/MattGrossi12/hello_world_pic32/blob/main/blink_state_1.jpeg)|
 
+<div align="justify">
+ 
 ## Estrutura do Projeto
 
 * `defs.h`: Arquivo de cabeçalho que armazena os *Configuration Bits* (`#pragma config`) do PIC32.
