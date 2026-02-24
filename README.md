@@ -19,9 +19,9 @@ Este projeto é um exemplo prático de inicialização, configuração de hardwa
 
 | **Ação** |
 |Estado desligado|
-![Estado desligado](https://github.com/MattGrossi12/hello_world_pic32/blob/main/blink_state_0.jpeg)
+|![Estado desligado](https://github.com/MattGrossi12/hello_world_pic32/blob/main/blink_state_0.jpeg)|
 |Estado desligado|
-![Estado ligado](https://github.com/MattGrossi12/hello_world_pic32/blob/main/blink_state_1.jpeg)
+|![Estado ligado](https://github.com/MattGrossi12/hello_world_pic32/blob/main/blink_state_1.jpeg)|
 
 ## Estrutura do Projeto
 
