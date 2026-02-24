@@ -1,3 +1,7 @@
+#### Para dúvidas, comentários ou sugestões fiquem à vontade, estarei à disposição através de minha página: 
+
+[Matheus Grossi](https://www.linkedin.com/in/matheus-grossi/)
+
 # Projeto de Blink Simples - PIC32MK
 
 ## Descrição
@@ -10,6 +14,13 @@ Este projeto é um exemplo prático de inicialização, configuração de hardwa
 * **Microcontrolador:** PIC32MK0128MCA048
 * **Pino de Saída (LED/Sinal):** RB10 
 * **Frequência de Clock de Sistema (`SYSCLK`):** 12 MHz (12000000 Hz)
+
+## Circuito rodando em bancada:
+
+| **Tabela de caracteristicas técnicas dos LEDs** |
+| :---: |
+![Estado desligado]([https://github.com/MattGrossi12/fiap_embedded_projects_3/blob/main/images/tabela_led.png](https://github.com/MattGrossi12/hello_world_pic32/blob/main/blink_state_0.jpeg))
+![Estado ligado]([https://github.com/MattGrossi12/fiap_embedded_projects_3/blob/main/images/tabela_led.png](https://github.com/MattGrossi12/hello_world_pic32/blob/main/blink_state_1.jpeg))
 
 ## Estrutura do Projeto
 
