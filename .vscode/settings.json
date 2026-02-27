@@ -55,9 +55,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "mplab.clangd.arguments": [
-    "--compile-commands-dir=${workspaceFolder}/_build/hello_world/default"
-  ],
-  "mplab.clangd.path": "/opt/microchip/xc32/v5.00/bin/xc32-clangd"
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }

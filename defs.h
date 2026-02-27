@@ -7,6 +7,11 @@
 // PIC32MK0128MCA048 Configuration Bit Settings
 // 'C' source line config statements
 
+// OPERATION PARAMS:
+#define operation 1
+#define baudrate  115200
+#define SYSCLK_HZ   12000000UL
+
 // DEVCFG3
 #pragma config USERID   = 0xFFFF
 #pragma config PWMLOCK  = OFF
@@ -72,4 +77,10 @@
 
 #include <xc.h>
 
+//Inclusao de funcoes:
+void pins_init(void);
+void blink_led(void);
+void delay_ms(uint32_t ms);
+
 #endif // DEFS_H
+
